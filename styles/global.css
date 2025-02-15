@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('./main.css');
+@import url('./responsive.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Outfit", serif;
+}
+
+:root {
+    --white: hsl(0, 0%, 100%);
+    --slate300: hsl(212, 45%, 89%);
+    --slate500: hsl(216, 15%, 48%);
+    --slate900: hsl(218, 44%, 22%);
+}
+
+body {
+    background-color: var(--slate300);
+}
+
+a {
+    text-decoration: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
